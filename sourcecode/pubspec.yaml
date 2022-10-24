@@ -1,0 +1,49 @@
+name: hearme
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  pull_to_refresh: ^2.0.0
+  cupertino_icons: ^1.0.0
+  cached_network_image: ^3.1.0
+  flutter_svg: ^0.22.0
+  flutter_spinkit: ^5.1.0
+  audioplayers: ^0.20.1
+  flutter_launcher_icons: ^0.9.2
+  date_time_picker: ^2.1.0
+  easy_localization: ^3.0.0
+  country_list_pick: ^1.0.1+5
+  flutter_switch: ^0.3.2
+  currency_picker: ^2.0.11
+  animate_do: ^2.1.0
+  pin_code_fields: ^7.3.0
+  smooth_page_indicator: ^1.0.0+2
+  outline_gradient_button: ^2.0.0+1
+dev_dependencies:
+  flutter_test: 
+    sdk: flutter
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/appIcon.png"
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/translations/
+  fonts: 
+    - family: Urbanist
+      fonts: 
+        - asset: assets/fonts/UrbanistRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/UrbanistSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/UrbanistRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/UrbanistRegular.ttf
+          weight: 400
